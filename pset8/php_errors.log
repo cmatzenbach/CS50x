@@ -1,0 +1,8 @@
+[24-Aug-2016 03:21:13 UTC] PHP Fatal error:  Class 'cs50' not found in /home/ubuntu/workspace/pset8/bin/import on line 23
+[24-Aug-2016 03:21:13 UTC] PHP Stack trace:
+[24-Aug-2016 03:21:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/pset8/bin/import:0
+[24-Aug-2016 03:23:48 UTC] PHP Fatal error:  CS50 Library is not initialized in /home/ubuntu/workspace/pset8/vendor/library50-php-5/CS50/CS50.php on line 275
+[24-Aug-2016 03:23:48 UTC] PHP Stack trace:
+[24-Aug-2016 03:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/pset8/bin/import:0
+[24-Aug-2016 03:23:48 UTC] PHP   2. CS50::query() /home/ubuntu/workspace/pset8/bin/import:27
+[24-Aug-2016 03:23:48 UTC] PHP   3. trigger_error() /home/ubuntu/workspace/pset8/vendor/library50-php-5/CS50/CS50.php:275

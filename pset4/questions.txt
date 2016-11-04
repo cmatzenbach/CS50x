@@ -1,0 +1,29 @@
+0.  BMP - 32 bit, over 4 billion colors
+    GIF - 8 bit, 256 colors
+    JPEG - 24 bit, 16 million colors
+    PNG - 24 bit, 16 million colors
+1.  GIF is the only format that supports animation
+2.  In lossless compression, every bit of data that was in the file pre-compression remains in the file post-compression. Lossy compression, on the other hand,
+    reduces a file by eliminating data during compression, especially redundant information.
+3.  JPEG is lossy-compressed
+4.  When a file is deleted,  the OS merely rewrites the metadata that pointed to the file, but leaves the disk blocks containing the file’s contents intact.
+5.  With the design of newer disks (created to avoid recovery problems that were present in older models), going through 
+    and overwriting all user data on the drive with one of two passes of random information is sufficient to clear the drive
+    of all data and be assured that it is not recoverable.
+6.  stdint.h is a header file that declares sets of integer types that have specified widths, and defines a corrosponding set of macro constants.  For the purposes of 
+    our program, it makes sure each integer takes up the space it is supposed to, so that we know it is guaranteed to at least have the specified width
+7.  The purpose of each of these is so you know what type of integer you are expecting - how large they are (so that you have the necessary amount of space) and whether the integer is signed or unsigned
+8.  BYTE - 1 byte
+    DWORD - 4 bytes
+    LONG - 4 bytes
+    WORD - 2 bytes
+9.  0x42 0x4d
+10. bfSize is the size, in bytes, of the bitmap file, while biSize is the number of bytes required by the structure
+11. This means that it is a top-down DIB, and that biCompression must be either BI_RGB or BI_BITFIELDS
+12. biBitCount
+13. ??
+14. Because we are always just reading in one pixel at a time
+15. Padding is assigned the value of 1
+16. Sets the position of the stream to the given offset
+17. Current position of the file pointer
+18. Rick Astley

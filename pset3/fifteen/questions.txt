@@ -1,0 +1,9 @@
+questions.txt
+
+Computer Science 50
+Problem Set 3
+
+0. It can take (in addition to 4x4): 3x3, 5x5, 6x6. 7x7, 8x8, 9x9
+1. A multi-dimensional array (specifically a two-dimensional array)
+2. The 'greet' function
+3. 'init', 'draw', 'won', 'move'
